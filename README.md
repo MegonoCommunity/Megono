@@ -8,12 +8,12 @@ Megono/
 │   ├──── model.class.php
 │   └──── resultset.class.php
 ├── modules/
-│ 	├──── controllers/
-│ 	│		├──── HomeController.php
-│	├──── models/
-│	│		├──── model.model.php
-│ 	├──── views/
-│ 	│ 		├──── welcome.view.php
+│   ├──── controllers/
+│   ├	  ├──── HomeController.php
+│   ├──── models
+│   ├	  ├──── loginModel.php
+│   └──── views
+│         └────	welcome.view.php
 ├─── public/
 ├─── resource/
 ├─── aktiva/
