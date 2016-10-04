@@ -76,7 +76,7 @@ class database
 	{
 		//memberikan isi properti sql
 		$this->sql = "INSERT INTO " . $namaTabel . " (";
-		//meghibunt jumlah parameter
+		//meghibung jumlah parameter
 		$total = count($params);
 		$i = 0;
 
