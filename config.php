@@ -13,5 +13,4 @@ define('DB_USERNAME', ''); //nama username yang digunakan
 define('DB_PASSWORD', ''); //nama password yang diguanakan
 define('DB_NAME', ''); //nama database yang digunakan
 
-
  ?>
