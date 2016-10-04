@@ -10,5 +10,9 @@
 	3. Perubahan pada parts 			= bagian
 	4. Perubahan pada controllerName 	= namaKkontroller;
 	5. Perubahan pada action 			= aksi
+	6. Perubahan pada queryName			= namaQuery
+	7. Perubahan pada record			= rekam
+	
+	" Perubahan bertujuan membudayakan bahasa indonesia kita dan membua pemahaman terhadap bahasa indoensia "
 
 	
