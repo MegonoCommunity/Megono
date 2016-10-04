@@ -1,5 +1,5 @@
-#============= MEGONO FRAMEWORK BASIC ===============
-=====================================================
+#==== MEGONO FRAMEWORK BASIC ======
+===================================
 # Features
 	1. ResultSet Basic CRUD
 	2. Template Basic
