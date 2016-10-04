@@ -29,7 +29,7 @@ class View
 	{
 		$this->isRender = TRUE;
 		extract($this->data);
-		$view = ROOT . DS . 'modules' . DS . 'views' . DS . $this->namaView . 'view.php';
+		$view = ROOT . DS . 'modules' . DS . 'views' . DS . $this->namaView . '.view.php';
 		//melakukan pengecekan file view
 		if(file_exists($view)) require_once $view;
 		else echo('View tidak di temukan !');
