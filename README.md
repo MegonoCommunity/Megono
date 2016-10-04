@@ -1,4 +1,7 @@
 # MEGONO FRAMEWORK BASIC
+# Features
+	1. ResultSet Basic CRUD
+	2. Template Basic
 # Contributor
 		1. Menuliskan keterangan kode pada setiap kode
 		2. Memberikan penjelasan yang detail pada setiap kode
