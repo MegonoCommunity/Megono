@@ -1,5 +1,5 @@
 #========= MEGONO FRAMEWORK BASIC =========
-# Susunan Direktori
+### Susunan Direktori
 '''
 Megono/
 |-- library/
