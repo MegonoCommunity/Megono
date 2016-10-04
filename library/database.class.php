@@ -1,5 +1,5 @@
 <?php 
-class database
+class Database
 {
 	private $instance;
 	private $sql;

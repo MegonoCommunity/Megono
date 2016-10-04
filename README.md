@@ -31,7 +31,9 @@ Megono/
 	9. Perubahan pada modelName			= namaModel
 	10. Perubahan pada tableJoin		= joinTabel
 	11. Perubahan pada table 			= tabel
+	12. Perubahan pada name				= nama
 	
 	" Perubahan bertujuan membudayakan bahasa indonesia kita dan membua pemahaman terhadap bahasa indoensia "
+	" Framework ini terinspirasi dari CODE-IGNITER yang menggunakan model MVC OOP"
 
 	

@@ -11,7 +11,7 @@ class View
 		$this->namaView = $view;
 	}
 
-	//membuat method/fungsi bind view
+	//membuat method/fungsi bind view / memberikan data ke view
 	public function bind($nama, $value = '')
 	{
 		if(is_array($nama))
