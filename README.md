@@ -3,20 +3,20 @@
 ```
 Megono/
 ├── library/
-│   ├── controller.class.php
-│   ├── database.class.php
-│   ├── model.class.php
-│   └── resultset.class.php
+│   ├──── controller.class.php
+│   ├──── database.class.php
+│   ├──── model.class.php
+│   └──── resultset.class.php
 ├── modules/
-│ 	├──controllers/
-│ 	│	├──HomeController.php
-│ 	├──models/
-│	│	├──model.model.php
-│ 	├──views/
-│ 	│ 	├──welcome.view.php
-├── public/
-├── resource/
-│ 	├──aktiva/
+│ 	├──── controllers/
+│ 	│		├──── HomeController.php
+│	├──── models/
+│	│		├──── model.model.php
+│ 	├──── views/
+│ 	│ 		├──── welcome.view.php
+├─── public/
+├─── resource/
+├─── aktiva/
 ├config.php
 ├index.php
 └README.md
