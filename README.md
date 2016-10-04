@@ -12,6 +12,8 @@
 	5. Perubahan pada action 			= aksi
 	6. Perubahan pada queryName			= namaQuery
 	7. Perubahan pada record			= rekam
+	8. Perubahan pada viewName			= namaView
+	9. Perubahan pada modelName			= namaModel
 	
 	" Perubahan bertujuan membudayakan bahasa indonesia kita dan membua pemahaman terhadap bahasa indoensia "
 
