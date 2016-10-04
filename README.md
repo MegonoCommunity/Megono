@@ -1,15 +1,16 @@
 #========= MEGONO FRAMEWORK BASIC =========
 ### Susunan Direktori
-'''
+```
 Megono/
-|-- library/
-|   |-- controller.class.php
-| 	|-- database.class.php
-|	|-- model.class.php
-|	|-- resultset.class.php
-index.php
-config.php
-'''
+├── library/
+│   ├── controller.class.php
+│   ├── database.class.php
+│   ├── model.class.php
+│   └── resultset.class.php
+└config.php
+└index.php
+└README.md
+```
 # Features
 	1. ResultSet Basic CRUD
 	2. Template Basic
