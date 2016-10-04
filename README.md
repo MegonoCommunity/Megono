@@ -29,6 +29,8 @@ Megono/
 	7. Perubahan pada record			= rekam
 	8. Perubahan pada viewName			= namaView
 	9. Perubahan pada modelName			= namaModel
+	10. Perubahan pada tableJoin		= joinTabel
+	11. Perubahan pada table 			= tabel
 	
 	" Perubahan bertujuan membudayakan bahasa indonesia kita dan membua pemahaman terhadap bahasa indoensia "
 
