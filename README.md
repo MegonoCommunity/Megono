@@ -11,7 +11,7 @@ Megono/
 │   ├──── controllers/
 │   ├	  ├──── HomeController.php
 │   ├──── models
-│   ├	  ├──── loginModel.php
+│   ├	  ├──── login.Model.php
 │   └──── views
 │         └────	welcome.view.php
 ├─── public/
