@@ -7,8 +7,8 @@ Megono/
 │   ├── database.class.php
 │   ├── model.class.php
 │   └── resultset.class.php
-└config.php
-└index.php
+├config.php
+├index.php
 └README.md
 ```
 # Features
