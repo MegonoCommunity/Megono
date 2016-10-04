@@ -55,7 +55,8 @@ class Model
 		return $this->db->delete($this->namaTabel, $where);
 	}
 
-	//halamam 41 belum ketulis
+	
+	
 
 }
 
