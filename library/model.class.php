@@ -55,8 +55,73 @@ class Model
 		return $this->db->delete($this->namaTabel, $where);
 	}
 
-	
-	
+	//membuat method/fungsi getjoin table
+	public function getJoin($namaTabel, $params, $join = "JOIN", $where = "")
+	{
+		$sql = "SELECT * FROM " . $this->namaTabel;
+		//melakukan pengecekan nama tabel yang join
+		if(is_array($joinTabel))
+		{
+			foreach ($joinTabel as $tabel) 
+			{
+				$sql .= " " . $join . " " . $tabel . " ";
+			}
+		}
+		else
+		{
+			$sql .= " " . $join . " " . $joinTabel . " ";
+		}
+
+		foreach ($params as $key => $value) 
+		{
+			$sql .= " ON " . $key . " = " . $value . " ";
+		}
+
+		// melakukan pengecekan where
+		if($where && is_array($where))
+		{
+			$sql .= " WHERE ";
+			$i = 0;
+
+			foreach ($where as $key => $value) {
+				$sql .= " " . $key . " = '" . $value . "' ";
+				$i++;
+				//melakukan pengecekan jumlah where
+				if($i < count($where))
+				{
+					$sql .= " AND ";
+				}
+			}
+		}
+		$this->db->query($sql);
+
+		return $this->db->execute()->toObject();
+	}
+
+	//membuat method/fungsi insert data
+	public function insert($data = array())
+	{
+		//memanggil fungsi insert pada database
+		$insert = $this->db->insert($this->namaTabel, $data);
+		//jika melakukan insert
+		if($insert)
+		{
+			return true;
+		}
+		return false;
+	}
+
+	//membuat method atau fungsi update
+	public function update($data = array(), $where = array())
+	{
+		$update = $this->db->update($this->namaTabel, $data, $where);
+		//jika melakukan update
+		if($update)
+		{
+			return true;
+		}
+		return false;
+	}
 
 }
 
