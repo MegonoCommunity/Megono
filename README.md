@@ -1,4 +1,5 @@
 #========= MEGONO FRAMEWORK BASIC =========
+<<<<<<< HEAD
 # Susunan Direktori
 <code>
 Megono/
@@ -10,6 +11,8 @@ Megono/
 index.php
 config.php
 </code>
+=======
+>>>>>>> 721384736f30f2443d3db94bf18d7152bf8541c5
 # Features
 	1. ResultSet Basic CRUD
 	2. Template Basic
